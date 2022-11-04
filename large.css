@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 25vh;
+}
+
+header{
+    grid-row: 1/3;
+    width: 90%;
+}
+
+ul{
+    flex-direction: column;
+}
